@@ -1,0 +1,66 @@
+@CHARSET "UTF-8";
+
+html,
+body {
+  height: 100%;
+  text-align: center;
+  background-image: url("../../Imagenes/Login/login2.png");
+  
+}
+.layout-boxed html,
+.layout-boxed body {
+  height: 100%;
+}
+body {
+  font-family: 'Source Sans Pro', 'Helvetica Neue';
+  font-weight: 400;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+
+/*
+ * Page: Login & Register
+ */
+.login-logo,
+.register-logo {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 300;
+}
+.login-page,
+.register-page {
+  background-image: url("../../Imagenes/Login/login2.png");
+}
+.login-box,
+.register-box {
+  width: 420px;
+  margin: 8% auto;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .login-box,
+  .register-box {
+    width: 90%;
+    margin-top: 20px;
+  }
+}
+.login-box-body,
+.register-box-body {
+  background: #fff;
+  padding: 20px;
+  border-top: 0;
+  border-radius: 10px;
+  color: #666;
+}
+.login-box-body .form-control-feedback,
+.register-box-body .form-control-feedback {
+  color: #777;
+}
+.login-box-msg,
+.register-box-msg {
+  margin: 0;
+  text-align: center;
+  padding: 0 20px 20px 20px;
+}
